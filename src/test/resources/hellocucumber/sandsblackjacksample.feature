@@ -8,5 +8,12 @@ Feature: Sands Black Jack Sample - by James Arasim
     Examples:
       | card1 | card2 | value.of.card1.and.card2 |
       |   "1" |     "1" |                      2 |
-
+      |   "1" |     "10" |                    11 |
+      |   "Q" |     "AHIGH" |                 21 |
+      |   "J" |     "AHIGH" |                 21 |
+      |   "J" |     "ALOW" |                  11 |
+      |   "K" |     "AHIGH" |                 21 |
+      |   "AHIGH" |     "AHIGH" |             22 |
+      |   "ALOW" |     "ALOW" |                2 |
+      |   "ALOW" |     "AHIGH" |              12 |
 
