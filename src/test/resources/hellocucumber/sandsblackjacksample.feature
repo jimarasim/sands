@@ -7,7 +7,6 @@ Feature: Sands Black Jack Sample - by James Arasim
     Then then the total value of my hand should be <value.of.card1.and.card2>
     Examples:
       | card1 | card2 | value.of.card1.and.card2 |
-      |    1 |      1 |                        2 |
-      |   10 |     10 |                       20 |
+      |   "1" |     "1" |                      2 |
 
 
